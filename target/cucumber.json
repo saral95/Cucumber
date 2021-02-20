@@ -1,0 +1,1129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-12T09:21:30.246Z",
+        "line": 24,
+        "name": "Verify login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-the-adactin-hotel;verify-login-functionality-with-valid-username-and-valid-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_RESET\n  (Session info: chrome\u003d88.0.4324.150)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LENOVO\u0027, ip: \u0027127.0.0.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\ADMINI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:50944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a0d42d91f0947749036986f88af62612\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.base.BaseClass.launchUrl(BaseClass.java:35)\r\n\tat org.stepdefAdactin.StepDefinitionAdactin.user_has_to_launch_Adactin_url_in_chrome(StepDefinitionAdactin.java:17)\r\n\tat ✽.User has to launch Adactin url in chrome(file:src/test/resources/Adactin.feature:5)\r\n",
+              "duration": 97169970300,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User has to launch Adactin url in chrome",
+            "match": {
+              "location": "StepDefinitionAdactin.user_has_to_launch_Adactin_url_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2403400,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User has to enter \"priyasuresh221\" and \"supriya16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"priyasuresh221\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"supriya16\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1419700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click the login button",
+            "match": {
+              "location": "StepDefinitionAdactin.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2009100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User has to enter \"Melbourne\", \"Hotel Creek\", \"Double\", \"2 - Two\", \"09/02/2021\", \"10/02/2021\", \"3 - Three\", \"3 - Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"09/02/2021\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"10/02/2021\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 108
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2578400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click search and select hotel and continue",
+            "match": {
+              "location": "StepDefinitionAdactin.click_search_and_select_hotel_and_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1770900,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User has to enter personal details \"Sara\", \"R\", \"ABC\", \"1234567789098765\", \"VISA\", \"May\", \"2022\", \"345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sara\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"R\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"ABC\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"1234567789098765\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"345\"",
+                  "offset": 98
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter_personal_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3623900,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User has to book the hotel",
+            "match": {
+              "location": "StepDefinitionAdactin.user_has_to_book_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1286400,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Print the order number",
+            "match": {
+              "location": "StepDefinitionAdactin.print_the_order_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-12T09:23:08.379Z",
+        "line": 25,
+        "name": "Verify login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-the-adactin-hotel;verify-login-functionality-with-valid-username-and-valid-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome\u003d88.0.4324.150)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LENOVO\u0027, ip: \u0027127.0.0.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\ADMINI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51003}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 74a5e6134775f32f4ada86aec74959c8\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.base.BaseClass.launchUrl(BaseClass.java:35)\r\n\tat org.stepdefAdactin.StepDefinitionAdactin.user_has_to_launch_Adactin_url_in_chrome(StepDefinitionAdactin.java:17)\r\n\tat ✽.User has to launch Adactin url in chrome(file:src/test/resources/Adactin.feature:5)\r\n",
+              "duration": 9055833400,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User has to launch Adactin url in chrome",
+            "match": {
+              "location": "StepDefinitionAdactin.user_has_to_launch_Adactin_url_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6528500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User has to enter \"Ramcrazy18\" and \"Ram@123a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ramcrazy18\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Ram@123a\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1212200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click the login button",
+            "match": {
+              "location": "StepDefinitionAdactin.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1793500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User has to enter \"Sydney\", \"Hotel Creek\", \"Double\", \"2 - Two\", \"09/02/2021\", \"10/02/2021\", \"3 - Three\", \"3 - Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"09/02/2021\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"10/02/2021\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 92
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 105
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3595500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click search and select hotel and continue",
+            "match": {
+              "location": "StepDefinitionAdactin.click_search_and_select_hotel_and_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4430300,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User has to enter personal details \"Bini\", \"R\", \"XXX\", \"4567890654321345\", \"Master Card\", \"June\", \"2021\", \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bini\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"R\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"XXX\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"4567890654321345\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"June\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 98
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 106
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter_personal_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1101200,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User has to book the hotel",
+            "match": {
+              "location": "StepDefinitionAdactin.user_has_to_book_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1206900,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Print the order number",
+            "match": {
+              "location": "StepDefinitionAdactin.print_the_order_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-12T09:23:17.504Z",
+        "line": 26,
+        "name": "Verify login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-the-adactin-hotel;verify-login-functionality-with-valid-username-and-valid-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome\u003d88.0.4324.150)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LENOVO\u0027, ip: \u0027127.0.0.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\ADMINI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51013}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 935e53ad4c3b68bc6ab209ee5c4202cc\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.base.BaseClass.launchUrl(BaseClass.java:35)\r\n\tat org.stepdefAdactin.StepDefinitionAdactin.user_has_to_launch_Adactin_url_in_chrome(StepDefinitionAdactin.java:17)\r\n\tat ✽.User has to launch Adactin url in chrome(file:src/test/resources/Adactin.feature:5)\r\n",
+              "duration": 10248478700,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User has to launch Adactin url in chrome",
+            "match": {
+              "location": "StepDefinitionAdactin.user_has_to_launch_Adactin_url_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2270400,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User has to enter \"NatarajSettu\" and \"TQB7W4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NatarajSettu\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"TQB7W4\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1456300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click the login button",
+            "match": {
+              "location": "StepDefinitionAdactin.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2130100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User has to enter \"Brisbane\", \"Hotel Sunshine\", \"Double\", \"2 - Two\", \"09/02/2021\", \"10/02/2021\", \"3 - Three\", \"3 - Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"09/02/2021\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"10/02/2021\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 97
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 110
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1186400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click search and select hotel and continue",
+            "match": {
+              "location": "StepDefinitionAdactin.click_search_and_select_hotel_and_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1876600,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User has to enter personal details \"Addi\", \"S\", \"BNK\", \"1234567789098765\", \"VISA\", \"July\", \"2024\", \"456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Addi\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"S\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"BNK\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"1234567789098765\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"456\"",
+                  "offset": 99
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter_personal_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1904300,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User has to book the hotel",
+            "match": {
+              "location": "StepDefinitionAdactin.user_has_to_book_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1693100,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Print the order number",
+            "match": {
+              "location": "StepDefinitionAdactin.print_the_order_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-12T09:23:27.816Z",
+        "line": 27,
+        "name": "Verify login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-the-adactin-hotel;verify-login-functionality-with-valid-username-and-valid-password;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: unable to send message to renderer\n  (Session info: chrome\u003d88.0.4324.150)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LENOVO\u0027, ip: \u0027127.0.0.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\ADMINI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: af70bbd8296d469177ba6ec042ace67c\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.base.BaseClass.launchUrl(BaseClass.java:35)\r\n\tat org.stepdefAdactin.StepDefinitionAdactin.user_has_to_launch_Adactin_url_in_chrome(StepDefinitionAdactin.java:17)\r\n\tat ✽.User has to launch Adactin url in chrome(file:src/test/resources/Adactin.feature:5)\r\n",
+              "duration": 8527410300,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User has to launch Adactin url in chrome",
+            "match": {
+              "location": "StepDefinitionAdactin.user_has_to_launch_Adactin_url_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1260900,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User has to enter \"gurumani\" and \"guru123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gurumani\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"guru123\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1182800,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click the login button",
+            "match": {
+              "location": "StepDefinitionAdactin.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2982700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User has to enter \"Brisbane\", \"Hotel Sunshine\", \"Double\", \"2 - Two\", \"09/02/2021\", \"10/02/2021\", \"3 - Three\", \"3 - Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"09/02/2021\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"10/02/2021\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 97
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 110
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1427900,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click search and select hotel and continue",
+            "match": {
+              "location": "StepDefinitionAdactin.click_search_and_select_hotel_and_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1673400,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User has to enter personal details \"Asi\", \"M\", \"YYY\", \"4567890654321345\", \"VISA\", \"May\", \"2029\", \"234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Asi\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"M\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"YYY\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"4567890654321345\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"2029\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"234\"",
+                  "offset": 97
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter_personal_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1408000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User has to book the hotel",
+            "match": {
+              "location": "StepDefinitionAdactin.user_has_to_book_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1163000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Print the order number",
+            "match": {
+              "location": "StepDefinitionAdactin.print_the_order_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-12T09:23:36.376Z",
+        "line": 28,
+        "name": "Verify login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-the-adactin-hotel;verify-login-functionality-with-valid-username-and-valid-password;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11321890500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to launch Adactin url in chrome",
+            "match": {
+              "location": "StepDefinitionAdactin.user_has_to_launch_Adactin_url_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d88.0.4324.150)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LENOVO\u0027, ip: \u0027127.0.0.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\ADMINI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51044}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f0ed388bd7beb45aed7cbb9fb4648150\n*** Element info: {Using\u003did, value\u003dusername}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.sendKeys(Unknown Source)\r\n\tat org.base.BaseClass.find(BaseClass.java:57)\r\n\tat org.stepdefAdactin.StepDefinitionAdactin.user_has_to_enter_and(StepDefinitionAdactin.java:23)\r\n\tat ✽.User has to enter \"priyasuresh221\" and \"supriya16\"(file:src/test/resources/Adactin.feature:7)\r\n",
+              "duration": 4504448600,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User has to enter \"priyasuresh221\" and \"supriya16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"priyasuresh221\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"supriya16\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13331700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click the login button",
+            "match": {
+              "location": "StepDefinitionAdactin.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2356100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User has to enter \"Brisbane\", \"Hotel Sunshine\", \"Double\", \"2 - Two\", \"09/02/2021\", \"10/02/2021\", \"3 - Three\", \"3 - Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"09/02/2021\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"10/02/2021\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 97
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 110
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8613600,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click search and select hotel and continue",
+            "match": {
+              "location": "StepDefinitionAdactin.click_search_and_select_hotel_and_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2008000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User has to enter personal details \"Usha\", \"R\", \"ZZZ\", \"9807658765890654\", \"VISA\", \"May\", \"2022\", \"567\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Usha\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"R\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"ZZZ\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"9807658765890654\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"May\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"567\"",
+                  "offset": 98
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter_personal_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1210700,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User has to book the hotel",
+            "match": {
+              "location": "StepDefinitionAdactin.user_has_to_book_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1027400,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Print the order number",
+            "match": {
+              "location": "StepDefinitionAdactin.print_the_order_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-12T09:23:52.270Z",
+        "line": 29,
+        "name": "Verify login functionality with valid username and valid password",
+        "description": "",
+        "id": "to-validate-the-adactin-hotel;verify-login-functionality-with-valid-username-and-valid-password;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9730461000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to launch Adactin url in chrome",
+            "match": {
+              "location": "StepDefinitionAdactin.user_has_to_launch_Adactin_url_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d88.0.4324.150)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LENOVO\u0027, ip: \u0027127.0.0.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_271\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\\Users\\ADMINI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f60fb8fb55ec46532027f98e233af5b7\n*** Element info: {Using\u003did, value\u003dusername}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.sendKeys(Unknown Source)\r\n\tat org.base.BaseClass.find(BaseClass.java:57)\r\n\tat org.stepdefAdactin.StepDefinitionAdactin.user_has_to_enter_and(StepDefinitionAdactin.java:23)\r\n\tat ✽.User has to enter \"Ramcrazy18\" and \"Ram@123a\"(file:src/test/resources/Adactin.feature:7)\r\n",
+              "duration": 4400557700,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User has to enter \"Ramcrazy18\" and \"Ram@123a\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ramcrazy18\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Ram@123a\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1234400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click the login button",
+            "match": {
+              "location": "StepDefinitionAdactin.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2019300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User has to enter \"Brisbane\", \"Hotel Sunshine\", \"Double\", \"2 - Two\", \"09/02/2021\", \"10/02/2021\", \"3 - Three\", \"3 - Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"09/02/2021\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"10/02/2021\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 97
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 110
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1239100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click search and select hotel and continue",
+            "match": {
+              "location": "StepDefinitionAdactin.click_search_and_select_hotel_and_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1967400,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User has to enter personal details \"Kennedy\", \"N\", \"XXX\", \"4567890654321345\", \"Master Card\", \"July\", \"2024\", \"124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kennedy\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"N\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"XXX\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"4567890654321345\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 101
+                },
+                {
+                  "val": "\"124\"",
+                  "offset": 109
+                }
+              ],
+              "location": "StepDefinitionAdactin.user_has_to_enter_personal_details(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1179700,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User has to book the hotel",
+            "match": {
+              "location": "StepDefinitionAdactin.user_has_to_book_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1350500,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Print the order number",
+            "match": {
+              "location": "StepDefinitionAdactin.print_the_order_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the Adactin hotel",
+    "description": "",
+    "id": "to-validate-the-adactin-hotel",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Adactin.feature",
+    "tags": []
+  }
+]
